@@ -1,0 +1,35 @@
+# --- Typography ---
+font-size = 14
+adjust-cell-height = 2
+
+# --- Window ---
+background-opacity = 0.9
+background-blur-radius = 30
+window-save-state = always
+window-theme = auto
+initial-window = true
+quit-after-last-window-closed = true
+notify-on-command-finish = always
+scrollback-limit = 25000000
+
+# --- Cursor ---
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.8
+
+# --- Mouse ---
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# --- Security ---
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+
+# --- Shell Integration ---
+shell-integration = zsh
+
+# --- Keybindings: Splits ---
+keybind = cmd+d=new_split:right
+
+# --- Keybindings: Global ---
+keybind = global:opt+space=toggle_visibility
