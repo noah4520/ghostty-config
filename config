@@ -33,3 +33,6 @@ keybind = cmd+d=new_split:right
 
 # --- Keybindings: Global ---
 keybind = global:opt+space=toggle_visibility
+
+# --- Icon ---
+macos-icon = chalkboard
